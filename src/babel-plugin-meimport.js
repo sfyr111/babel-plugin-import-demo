@@ -17,7 +17,7 @@ const visitor = {
           types.StringLiteral(`${source.value}/${specifier.local.name}`)
         )
       })
-      console.log(JSON.stringify(declarations, null, 2))
+      // console.log(JSON.stringify(declarations, null, 2))
       path.replaceWithMultiple(declarations)
 
     }
@@ -31,7 +31,7 @@ const result = babel.transform(code, {
   ]
 })
 
-// console.log(result.code)
+console.log(result.code)
 
 /* output
   import uniq from "lodash/uniq";
