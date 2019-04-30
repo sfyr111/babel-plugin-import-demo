@@ -47,7 +47,7 @@ https://github.com/sfyr111/babel-plugin-import-demo
 
 ### 目的 import 语句转换
 ImportSpecifier 和 ImportNamespaceSpecifier 转化成 ImportDefaultSpecifier
-
+![](https://raw.githubusercontent.com/sfyr111/babel-plugin-import-demo/master/img.png)
 ```
  //import { uniq } from "lodash"
  import uniq from "lodash/uniq"
